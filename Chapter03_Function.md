@@ -56,7 +56,7 @@ It's the inner function, named makeSentenceFormat() inside globalPet() and assig
 
 So why do we need to use Closure?
 
-The main benefit is that any variables you have inside your code is not exposed to the Global namespace and thus you guard against colliding with other libraries or parts of your app.
+The main advantage is that any variables you have inside your code is not exposed to the Global namespace and thus you guard against colliding with other libraries or parts of your app.
 
 For example lets say we have a code that is like this:
 
